@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="description" content="A responsive, material Designed, multiple animated login forms">
+    <meta name="keywords" content="Login Forms, multiple login forms , animated login forms">
+    <meta name="author" content="Hasnain Karim">
+
+    <title>Student Login - Assignment Management System</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+    <link rel="stylesheet" href="src/css/index.css">
+    <link rel="stylesheet" href="src/css/index-animations.css">
+    <link rel="stylesheet" href="src/css/index-media-queries.css">
+
+</head>
+<body>
+
+
+<!-- *************************************
+    Login Forms For Desktop Sized Devices
+    ************************************* -->
+
+<div class="main--container">
+
+    <div class="backgrounds--container">
+        <div class="bg--1"></div>
+        <div class="bg--2"></div>
+    </div>
+
+    <div class="overlays--container">
+        <div class="ov--1"></div>
+        <div class="ov--2"></div>
+    </div>
+
+    <div class="forms--container">
+
+        <!--*******************
+            Teacher Login Form 
+            ******************* -->
+
+        <div class="fc--1">
+            <div class="content">
+                <h3>teacher login</h3>
+                <img src="src/images/teacher.png" alt=""/>
+
+                <form name="teacherDesktop">
+                    <div class="row">
+
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">person_outline</i>
+                            <input id="tc-email" type="email" required/>
+                            <label for="tc-email">Enter your email</label>
+                        </div> 
+
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">lock_outline</i>
+                            <input id="tc-password" type="password" required/>
+                            <label for="tc-password">Enter your password</label>
+                        </div> 
+
+                        <div class="input-field col s12">
+                            <a class="waves-effect btn-flat" href="javascript:void(0)">
+                                Forgot password?
+                            </a>
+                            <button type="submit" class="btn waves-effect waves-light">login</button>
+                        </div>
+
+                        <div class="input-field col s12">
+                            <!-- Form Toggling Dropdown  -->
+                            <a class="dropdown-trigger btn waves-effect waves-light" href="javascript:void(0)" 
+                                data-target="TeacherFormToggler">
+                                Not Teacher? 
+                            </a>
+                        </div>
+                        
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!--******************* 
+            Student Login form
+            ******************* -->
+
+        <div class="fc--2">
+
+            <div class="content">
+                <h3><span class="hc">student</span> login</h3>
+                <img src="src/images/student.png" alt=""/>
+
+                <form name="StudentDesktop">
+                    
+                    <div class="row">
+
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">person_outline</i>
+                            <input id="st-email-mob" type="email" required/>
+                            <label for="st-email-mob">Enter your email</label>
+                        </div> 
+
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix ">lock_outline</i>
+                            <input id="st-password-mob" type="password" required/>
+                            <label for="st-password-mob">Enter your password</label>
+                        </div> 
+
+                        <div class="input-field col s12">
+                            <a class="waves-effect waves-light btn-flat" href="javascript:void(0)">
+                                Forgot password?
+                            </a>
+                            <button type="submit" class="btn waves-effect waves-light">login</button>
+                        </div>
+
+                        <div class="input-field col s12">
+                            <!-- Form Toggling Dropdown  -->
+                            <a class="dropdown-trigger btn" href="javascript:void(0)" 
+                                data-target="StudentFormToggler">
+                                Not student? 
+                            </a>
+                        </div>
+                        
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <!--*****************
+        Admin Login Form
+        ***************** -->
+
+    <div class="admin--container element--delete">
+
+        <div class="backgrounds--container">
+            <div class="bg--3"></div>
+        </div>
+
+        <div class="inner--content">
+
+            <div class="content">
+                <h3>admin login</h3>
+                <img src="src/images/geek.png" alt=""/>
+
+                <form name="adminDesktop">
+                    <div class="row">
+
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">person_outline</i>
+                            <input id="ad-email" type="email" required/>
+                            <label for="ad-email">Enter your email</label>
+                        </div> 
+
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">lock_outline</i>
+                            <input id="ad-password" type="password" required/>
+                            <label for="ad-password">Enter your password</label>
+                        </div> 
+
+                        <div class="input-field col s12">
+                            <a class="waves-effect btn-flat" href="javascript:void(0)">
+                                Forgot password?
+                            </a>
+                            <button type="submit" class="btn waves-effect waves-light">login</button>
+                        </div>
+
+                        <div class="input-field col s12">
+                            <!-- Form Toggling Dropdown  -->
+                            <a class="dropdown-trigger btn" href="javascript:void(0)" 
+                                data-target="AdminFormToggler">
+                                Not Administrator? 
+                            </a>
+                        </div>
+                        
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- *********************************************
+    Login Forms For Tablet & Mobile Sized Devices 
+    ********************************************* -->
+
+
+<div class="mob--form--container container">
+    <div class="row">
+        <div class="col s12">
+            <ul class="tabs">
+                
+                <li class="tab col s4" onclick="documentTitle('first')">
+                    <a href="#studentFormContainer" class="active waves-effect"
+                    onclick="background(this)" data-tab="student" >
+                        Student 
+                    </a>
+                </li>
+
+                <li class="tab col s4" onclick="documentTitle('second')">
+                    <a href="#teacherFormContainer" class="waves-effect"
+                    onclick="background(this)" data-tab="teacher">
+                        Teacher 
+                    </a>
+                </li>
+
+                <li class="tab col s4" onclick="documentTitle('third')">
+                    <a href="#AdminFormContainer" class="waves-effect"
+                    onclick="background(this)" data-tab="admin">
+                        Admin 
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="row">
+        
+        <!--*************************
+            Student Form Container
+            ************************* -->
+
+        <div id="studentFormContainer" class="col s12">
+            
+            <h4>student login</h4>
+            <img src="src/images/student-mob.png" alt=""/>
+
+            <form name="StudentMobile">
+                
+                <div class="row">
+
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">person_outline</i>
+                        <input id="st-email" type="email" required/>
+                        <label for="st-email">Enter your email</label>
+                    </div> 
+
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix ">lock_outline</i>
+                        <input id="st-password" type="password" required/>
+                        <label for="st-password">Enter your password</label>
+                    </div> 
+
+                    <div class="input-field col s12">
+                        <a class="waves-effect waves-light btn-flat" href="javascript:void(0)">
+                            Forgot password?
+                        </a>
+                        <button type="submit" class="btn waves-effect waves-light">login</button>
+                    </div>
+
+                </div>
+            </form>
+
+        </div>
+
+        <!--*************************
+            Teacher Form Container
+            ************************* -->
+
+        <div id="teacherFormContainer" class="col s12">
+            
+            <h4>teacher login</h4>
+            <img src="src/images/teacher.png" alt=""/>
+
+            <form name="teacherMobile">
+
+                <div class="row">
+
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">person_outline</i>
+                        <input id="tc-email-mob" type="email" required/>
+                        <label for="tc-email-mob">Enter your email</label>
+                    </div> 
+
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">lock_outline</i>
+                        <input id="tc-password-mob" type="password" required/>
+                        <label for="tc-password-mob">Enter your password</label>
+                    </div> 
+
+                    <div class="input-field col s12">
+                        <a class="waves-effect btn-flat" href="javascript:void(0)">
+                            Forgot password?
+                        </a>
+                        <button type="submit" class="btn waves-effect waves-light">login</button>
+                    </div>
+
+                </div>
+            </form>
+
+        </div>
+
+        <!--*************************
+            Admin Form Container
+            ************************* -->
+
+        <div id="AdminFormContainer" class="col s12">
+            
+            <h4>admin login</h4>
+            <img src="src/images/geek.png" alt=""/>
+
+            <form name="adminMobile">
+
+                <div class="row">
+
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">person_outline</i>
+                        <input id="ad-email-mob" type="email" required/>
+                        <label for="ad-email-mob">Enter your email</label>
+                    </div> 
+
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">lock_outline</i>
+                        <input id="ad-password-mob" type="password" required/>
+                        <label for="ad-password-mob">Enter your password</label>
+                    </div> 
+
+                    <div class="input-field col s12">
+                        <a class="waves-effect btn-flat" href="javascript:void(0)">
+                            Forgot password?
+                        </a>
+                        <button type="submit" class="btn waves-effect waves-light">login</button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+
+
+<!--***********************************
+    Dropdown Content for Toggling Forms
+    *********************************** -->
+
+<!-- Student Form Dropdown Content -->
+
+<ul id="StudentFormToggler" class="dropdown-content">
+    <li>
+        <a href="javascript:void(0)" data-current-form="student" data-toggle="teacher"
+        onclick="toggleForm(this)" class="waves-effect waves-light">
+            Teacher Login
+        </a>
+    </li>
+    
+    <li>
+        <a href="javascript:void(0)" data-current-form="student" data-toggle="admin"
+        onclick="toggleForm(this)" class="waves-effect waves-light">
+            Admin Login
+        </a>
+    </li>
+</ul>
+
+<!-- Teacher Form Dropdown Content-->
+
+<ul id="TeacherFormToggler" class="dropdown-content">
+    <li>
+        <a href="javascript:void(0)" data-current-form="teacher" data-toggle="student"
+        onclick="toggleForm(this)">
+            Student Login
+        </a>
+    </li>
+    <li class="divider" tabindex="-1"></li>
+    <li>
+        <a href="javascript:void(0)"  data-current-form="teacher" data-toggle="admin"
+        onclick="toggleForm(this)">
+            Admin Login
+        </a>
+    </li>
+</ul>
+
+<!-- Admin Form Dropdown Content-->
+
+<ul id="AdminFormToggler" class="dropdown-content">
+    <li>
+        <a href="javascript:void(0)" data-current-form="admin" data-toggle="teacher"
+        onclick="toggleForm(this)">
+            Teacher Login
+        </a>
+    </li>
+    <li class="divider" tabindex="-1"></li>
+    <li>
+        <a href="javascript:void(0)" data-current-form="admin" data-toggle="student"
+        onclick="toggleForm(this)">
+            Student Login
+        </a>
+    </li>
+</ul>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+<script src="src/js/index.js"></script>
+
+</body>
+</html>

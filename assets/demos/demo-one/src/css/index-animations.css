@@ -1,0 +1,554 @@
+
+@keyframes FadeIn{
+    from{
+        opacity: 0;
+        visibility: hidden;
+    }
+    to{
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+@keyframes FadeOut{
+    from{
+        opacity: 1;
+        visibility: visible;
+    }
+    to{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+/*
+    OVERLAY ANIMATIONS
+*/
+
+@keyframes OverlayHide{
+    from{
+        width:50%;        
+    }
+    to{
+        width:0
+    }
+}
+
+@keyframes overlayShow{
+    from{
+        width:0;
+    }
+    to{
+        width:50%;
+    }
+}
+
+/* backgrounds ANIMATIONS */
+
+@keyframes FirstBgOutside{
+    from{
+        left:0;
+    }
+    to{
+        left:-50%;
+    }
+}
+
+@keyframes FirstBgInside{
+    from{
+        left:-50%;
+    }
+    to{
+        left:0;
+    }
+}
+
+@keyframes SecondBgOutSide{
+    from{
+        right:0;
+    }
+    to{
+        right:-50%;
+    }
+}
+
+@keyframes SecondBgInside{
+    from{
+        right:-50%;
+    }
+    to{
+        right:0%;
+    }
+}
+
+@keyframes StudentOverlayOutside{
+    from{
+        left:50%;
+    }
+    to{
+        left:100%;
+    }
+}
+
+@keyframes StudentOverlayInside{
+    from{
+        left:100%;
+    }
+    to{
+        left:50%;
+    }
+}
+
+@keyframes TeacherOverlayOutsite{
+    from{
+        right:50%;
+    }
+    to{
+        right:100%;
+    }
+}
+
+@keyframes TeacherOverlayInside{
+    from{
+        right:100%;
+        width:0;
+    }
+    to{
+        right:50%;
+        width:50%;
+    }
+}
+
+/* ADMIN FORM ANIMATION*/
+
+@keyframes AdminOverlayShow{
+    from{
+        top:100%;
+    }
+    to{
+        top:0%;
+    }
+}
+
+@keyframes AdminOverlayHide{
+    from{
+        top:0%
+    }
+    to{
+        top:100%;
+    }
+}
+
+/*
+    -------------------------------
+    M O Z I L L A  P R E F I X E S 
+    -------------------------------
+*/
+
+@-moz-keyframes FadeIn{
+    from{
+        opacity: 0;
+        visibility: hidden;
+    }
+    to{
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+@-moz-keyframes FadeOut{
+    from{
+        opacity: 1;
+        visibility: visible;
+    }
+    to{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@-moz-keyframes OverlayHide{
+    from{
+        width:50%;        
+    }
+    to{
+        width:0
+    }
+}
+
+@-moz-keyframes overlayShow{
+    from{
+        width:0;
+    }
+    to{
+        width:50%;
+    }
+}
+
+@-moz-keyframes FirstBgOutside{
+    from{
+        left:0;
+    }
+    to{
+        left:-50%;
+    }
+}
+
+@-moz-keyframes FirstBgInside{
+    from{
+        left:-50%;
+    }
+    to{
+        left:0;
+    }
+}
+
+@-moz-keyframes SecondBgOutSide{
+    from{
+        right:0;
+    }
+    to{
+        right:-50%;
+    }
+}
+
+@-moz-keyframes SecondBgInside{
+    from{
+        right:-50%;
+    }
+    to{
+        right:0%;
+    }
+}
+
+@-moz-keyframes StudentOverlayOutside{
+    from{
+        left:50%;
+    }
+    to{
+        left:100%;
+    }
+}
+
+@-moz-keyframes StudentOverlayInside{
+    from{
+        left:100%;
+    }
+    to{
+        left:50%;
+    }
+}
+
+@-moz-keyframes TeacherOverlayOutsite{
+    from{
+        right:50%;
+    }
+    to{
+        right:100%;
+    }
+}
+
+@-moz-keyframes TeacherOverlayInside{
+    from{
+        right:100%;
+        width:0;
+    }
+    to{
+        right:50%;
+        width:50%;
+    }
+}
+
+@-moz-keyframes AdminOverlayShow{
+    from{
+        top:100%;
+    }
+    to{
+        top:0%;
+    }
+}
+
+@-moz-keyframes AdminOverlayHide{
+    from{
+        top:0%
+    }
+    to{
+        top:100%;
+    }
+}
+
+/*
+    ---------------------------------------------
+    C H R O M E  &  S A F A R I  P R E F I X E S 
+    ---------------------------------------------
+*/
+
+@-webkit-keyframes FadeIn{
+    from{
+        opacity: 0;
+        visibility: hidden;
+    }
+    to{
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+@-webkit-keyframes FadeOut{
+    from{
+        opacity: 1;
+        visibility: visible;
+    }
+    to{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@-webkit-keyframes OverlayHide{
+    from{
+        width:50%;        
+    }
+    to{
+        width:0
+    }
+}
+
+@-webkit-keyframes overlayShow{
+    from{
+        width:0;
+    }
+    to{
+        width:50%;
+    }
+}
+
+@-webkit-keyframes FirstBgOutside{
+    from{
+        left:0;
+    }
+    to{
+        left:-50%;
+    }
+}
+
+@-webkit-keyframes FirstBgInside{
+    from{
+        left:-50%;
+    }
+    to{
+        left:0;
+    }
+}
+
+@-webkit-keyframes SecondBgOutSide{
+    from{
+        right:0;
+    }
+    to{
+        right:-50%;
+    }
+}
+
+@-webkit-keyframes SecondBgInside{
+    from{
+        right:-50%;
+    }
+    to{
+        right:0%;
+    }
+}
+
+@-webkit-keyframes StudentOverlayOutside{
+    from{
+        left:50%;
+    }
+    to{
+        left:100%;
+    }
+}
+
+@-webkit-keyframes StudentOverlayInside{
+    from{
+        left:100%;
+    }
+    to{
+        left:50%;
+    }
+}
+
+@-webkit-keyframes TeacherOverlayOutsite{
+    from{
+        right:50%;
+    }
+    to{
+        right:100%;
+    }
+}
+
+@-webkit-keyframes TeacherOverlayInside{
+    from{
+        right:100%;
+        width:0;
+    }
+    to{
+        right:50%;
+        width:50%;
+    }
+}
+
+@-webkit-keyframes AdminOverlayShow{
+    from{
+        top:100%;
+    }
+    to{
+        top:0%;
+    }
+}
+
+@-webkit-keyframes AdminOverlayHide{
+    from{
+        top:0%
+    }
+    to{
+        top:100%;
+    }
+}
+
+/*
+    ----------------------------
+    O P E R A  P R E F I X E S 
+    ----------------------------
+*/
+
+@-o-keyframes FadeIn{
+    from{
+        opacity: 0;
+        visibility: hidden;
+    }
+    to{
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+@-o-keyframes FadeOut{
+    from{
+        opacity: 1;
+        visibility: visible;
+    }
+    to{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@-o-keyframes OverlayHide{
+    from{
+        width:50%;        
+    }
+    to{
+        width:0
+    }
+}
+
+@-o-keyframes overlayShow{
+    from{
+        width:0;
+    }
+    to{
+        width:50%;
+    }
+}
+
+@-o-keyframes FirstBgOutside{
+    from{
+        left:0;
+    }
+    to{
+        left:-50%;
+    }
+}
+
+@-o-keyframes FirstBgInside{
+    from{
+        left:-50%;
+    }
+    to{
+        left:0;
+    }
+}
+
+@-o-keyframes SecondBgOutSide{
+    from{
+        right:0;
+    }
+    to{
+        right:-50%;
+    }
+}
+
+@-o-keyframes SecondBgInside{
+    from{
+        right:-50%;
+    }
+    to{
+        right:0%;
+    }
+}
+
+@-o-keyframes StudentOverlayOutside{
+    from{
+        left:50%;
+    }
+    to{
+        left:100%;
+    }
+}
+
+@-o-keyframes StudentOverlayInside{
+    from{
+        left:100%;
+    }
+    to{
+        left:50%;
+    }
+}
+
+@-o-keyframes TeacherOverlayOutsite{
+    from{
+        right:50%;
+    }
+    to{
+        right:100%;
+    }
+}
+
+@-o-keyframes TeacherOverlayInside{
+    from{
+        right:100%;
+        width:0;
+    }
+    to{
+        right:50%;
+        width:50%;
+    }
+}
+
+@-o-keyframes AdminOverlayShow{
+    from{
+        top:100%;
+    }
+    to{
+        top:0%;
+    }
+}
+
+@-o-keyframes AdminOverlayHide{
+    from{
+        top:0%
+    }
+    to{
+        top:100%;
+    }
+}
